@@ -1,0 +1,3 @@
+40!/(20!*20!)
+
+Any path that goes right 20 times and down 20 times is valid. But because every right and down step is the same, we have to divide by 20! for right steps and 20! for down steps to avoid re-counting.

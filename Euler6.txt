@@ -1,0 +1,7 @@
+Sum of sqaures: n(n+1)(2n+1)/6
+Square if sum: n(n+1)/2
+
+n = 100 ==> Sum of sq. = 338350
+            Square of sum = 5050^2
+
+Difference: 25502500
