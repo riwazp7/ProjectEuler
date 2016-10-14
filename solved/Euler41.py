@@ -1,6 +1,7 @@
 # Euler41.py
 # (c) 2016 RIWAZ POUDYAL
-# 0.28 secs ( ~2 sec if 9 included but answer is not in that length)
+# 0.06 secs ( ~2 sec if 9 included but answer is not in that length)
+# Actually, answer can't also be 8 pandigital for the same reason (both 9 and 8 pandigitals are divisible by 3 as the digit add up to a multiple of 3)
 
 def isPrime(i):
     if i <= 1:
@@ -33,7 +34,7 @@ def getPandigitals(n):
 
 
 def find():
-    for i in range(8, 3, -1):
+    for i in range(7, 3, -1):
         pandigitals = getPandigitals(i)
         sorted_pan = sorted(pandigitals, reverse=True)
         for num in sorted_pan:
